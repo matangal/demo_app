@@ -34,6 +34,7 @@ group :test do
   # gem 'growl', '1.0.3'
 end
 
-group :production do
-  gem 'pg', '0.12.2'
+group :development do
+  gem 'taps'
+  gem 'rvm'
 end
